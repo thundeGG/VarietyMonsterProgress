@@ -86,6 +86,22 @@ public class VarietyMonsterProgress extends View {
         mRadius = radius;
     }
 
+    public int getSelectedColor() {
+        return mSelectedColor;
+    }
+
+    public void setSelectedColor(int selectedColor) {
+        mSelectedColor = selectedColor;
+    }
+
+    public int getNormalColor() {
+        return mNormalColor;
+    }
+
+    public void setNormalColor(int normalColor) {
+        mNormalColor = normalColor;
+    }
+
     private Paint mNormalPaint;
     private Paint mSelectedPaint;
 
