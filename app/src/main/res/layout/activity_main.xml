@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <com.thunder.varietymonsterprogress.VarietyMonsterProgress
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        app:count="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:normalColor="@color/c_bdbdbd"
+        app:selectedColor="@color/c_00A5FE"/>
+
+    <com.thunder.varietymonsterprogress.VarietyMonsterProgress
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        app:count="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:normalColor="@color/c_bdbdbd"
+        app:radius="100"
+        app:selected="7"
+        app:selectedColor="@color/c_00A5FE"/>
+
+    <com.thunder.varietymonsterprogress.VarietyMonsterProgress
+        android:layout_width="300dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="10dp"
+        app:count="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:normalColor="@color/c_000000"
+        app:radius="100"
+        app:selected="7"
+        app:selectedColor="@color/c_ff0000"/>
+
+    <com.thunder.varietymonsterprogress.VarietyMonsterProgress
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        app:count="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:normalColor="@color/c_757575"
+        app:radius="100"
+        app:selected="3"
+        app:selectedColor="@color/c_FF5722"/>
+</LinearLayout>

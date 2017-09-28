@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VarietyMonsterProgress">
+        <attr name="count" format="integer"/>
+        <attr name="selected" format="integer"/>
+        <attr name="selectedColor" format="color"/>
+        <attr name="normalColor" format="color"/>
+        <attr name="spacing" format="float"/>
+        <attr name="radius" format="float"/>
+    </declare-styleable>
+
+</resources>
