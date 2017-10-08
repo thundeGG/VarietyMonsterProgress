@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mProgress = (VarietyMonsterProgress) findViewById(R.id.progress);
-        mProgress.setCount(8);
+        mProgress.setCount(6);
         mProgress.setSelected(2);
         mProgress.setRadius(50);
         mProgress.setSelectedColor(getResources().getColor(R.color.c_00A5FE));

@@ -92,6 +92,8 @@ public class VarietyMonsterProgress extends View {
 
     public void setSelectedColor(int selectedColor) {
         mSelectedColor = selectedColor;
+        mSelectedPaint.setColor(mSelectedColor);
+        invalidate();
     }
 
     public int getNormalColor() {
@@ -100,6 +102,8 @@ public class VarietyMonsterProgress extends View {
 
     public void setNormalColor(int normalColor) {
         mNormalColor = normalColor;
+        mNormalPaint.setColor(mNormalColor);
+        invalidate();
     }
 
     private Paint mNormalPaint;
